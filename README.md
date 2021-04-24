@@ -1,4 +1,4 @@
 # checkers
-what the name says
-part of a hackathon
+what the name says\n
+part of a hackathon\n
 under development...
