@@ -1,0 +1,75 @@
+#board, td
+{
+    border: 2px solid black;
+}
+
+td
+{
+    width: 45px;
+    height: 45px;
+    justify-content:center;
+  
+}
+#border
+{
+    display:flex;
+  justify-content:center;
+}
+#board
+{
+
+}
+.black-bg
+{
+    background-color: #8b0000;
+}
+.white-bg
+{
+    background-color: white;
+}
+
+.black-p
+{
+    background-color: black;
+}
+.white-p
+{
+    background-color: white;
+}
+
+.piece
+{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    margin:0px auto;
+}
+
+.king
+{
+    border: 3px dashed gold;
+}
+
+.selected 
+{
+    background-color: yellow;
+}
+
+.destination
+{
+    animation-name:flash;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes flash {
+    from {
+      background-color:skyblue;
+    }
+  
+    to {
+      transform: white;
+    }
+}
+
